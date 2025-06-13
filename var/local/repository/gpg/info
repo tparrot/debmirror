@@ -1,0 +1,9 @@
+root@repository:/var/local/repository# cat gpg/
+5F8B0B29BC2F975EBFE441C848DFAD4D42B1FF84.asc  README.md
+5F8B0B29BC2F975EBFE441C848DFAD4D42B1FF84.key  debian-keyring/
+5F8B0B29BC2F975EBFE441C848DFAD4D42B1FF84.pw   mirror/
+root@repository:/var/local/repository# cat gpg/mirror/
+82EE97FD.gpg.key        debian.octopuce.fr.gpg  nginx.gpg               nx-it.pgp
+root@repository:/var/local/repository# cat gpg/debian-keyring/
+debian-keyring.gpg      debian-nonupload.gpg    emeritus-keyring.gpg
+debian-maintainers.gpg  debian-role-keys.gpg    extra-keys.pgp
